@@ -1,0 +1,7 @@
+RewriteBase /
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^opener.tk
+RewriteRule (.*) http://www.opener.tk/$1 [R=301,L]
+ErrorDocument 404 /404.html
+
+
